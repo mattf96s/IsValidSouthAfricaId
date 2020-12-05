@@ -1,0 +1,29 @@
+{
+  "name": "isvalidsouthafricaid",
+  "version": "0.0.0",
+  "description": "Checks for a valid South African ID number",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublish": "npm run tsc"
+  },
+  "keywords": [
+    "regex",
+    "south",
+    "africa",
+    "id",
+    "identification",
+    "za",
+    "number"
+  ],
+  "author": "Matthew Fainman",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "typescript": "^4.1.2"
+  }
+}
